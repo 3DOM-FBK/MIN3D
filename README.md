@@ -62,7 +62,7 @@ If you use our work, please cite:
 
 ## Sensor Setup
 <div align="left">
-<img src="./images/sensors.png" alt="photo" width="40%" />
+<img src="./images/sensors.png" width="40%" />
 </div>
 
 Sensor/Device|Model|Specification
@@ -91,8 +91,8 @@ IMU data as .csv files
 Acquired with a Riegl VZ-400i TLS and registered with RiScan PRO
 
 <div align="left">
-<img src="./images/gt_uni.png" width="40%" />
-<img src="./images/gt_und.png" width="40%" />
+<img src="./images/gt_uni.png" height="240" />
+<img src="./images/gt_und.png" height="240" />
 </div>
 
 
