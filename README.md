@@ -24,8 +24,10 @@ The research potential in the field of mobile mapping technologies, particularly
 - Simultaneously acquired data with many sensors (cameras, LiDAR scanners, IMUs) on a single robotic platform.
 - High-quality reference point clouds, acquired with a survey-grade Terrestrial Laser Scanner.
 
-## Full published paper 
+## Related papers 
 <a href="https://doi.org/10.1007/s41064-023-00260-0">Trybała, P., Szrek, J., Remondino, F. et al. MIN3D Dataset: MultI-seNsor 3D Mapping with an Unmanned Ground Vehicle. PFG (2023).</a>
+
+<a href="https://doi.org/10.5194/isprs-archives-XLVIII-2-W2-2022-135-2022">Trybała, P., Szrek, J., Remondino, F. et al. CALIBRATION OF A MULTI-SENSOR WHEELED ROBOT FOR THE 3D MAPPING OF UNDERGROUND MINING TUNNELS. Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLVIII-2/W2-2022, 135–142 (2022).</a>
 
 If you use our work, please cite:
 ```bibtex
@@ -39,6 +41,20 @@ If you use our work, please cite:
   author = {Trybała,  Paweł and Szrek,  Jarosław and Remondino,  Fabio and Kujawa,  Paulina and Wodecki,  Jacek and Blachowski,  Jan and Zimroz,  Radosław},
   year = {2023},
   month = oct 
+}
+
+@article{Trybala2022calibration,
+  title = {CALIBRATION OF A MULTI-SENSOR WHEELED ROBOT FOR THE 3D MAPPING OF UNDERGROUND MINING TUNNELS},
+  volume = {XLVIII-2/W2-2022},
+  ISSN = {2194-9034},
+  url = {http://dx.doi.org/10.5194/isprs-archives-XLVIII-2-W2-2022-135-2022},
+  DOI = {10.5194/isprs-archives-xlviii-2-w2-2022-135-2022},
+  journal = {The International Archives of the Photogrammetry,  Remote Sensing and Spatial Information Sciences},
+  publisher = {Copernicus GmbH},
+  author = {Trybała,  P. and Szrek,  J. and Remondino,  F. and Wodecki,  J. and Zimroz,  R.},
+  year = {2022},
+  month = dec,
+  pages = {135–142}
 }
 ```
 
@@ -75,8 +91,8 @@ IMU data as .csv files
 Acquired with a Riegl VZ-400i TLS and registered with RiScan PRO
 
 <div align="left">
-<img src="./images/gt_uni.png" width="50%" />
-<img src="./images/gt_und.png" width="50%" />
+<img src="./images/gt_uni.png" width="40%" />
+<img src="./images/gt_und.png" width="40%" />
 </div>
 
 
@@ -84,7 +100,7 @@ Acquired with a Riegl VZ-400i TLS and registered with RiScan PRO
 Our dataset consists of 8 sequences in total. 
 
 <div align="left">
-<img src="./images/dataset_structure.png" width="80%" />
+<img src="./images/dataset_structure.png" width="60%" />
 </div>
 
 ## University dataset
@@ -95,6 +111,12 @@ Our dataset consists of 8 sequences in total.
     <th><b>1</b></th>
     <th><b>2</b></th>
     <th><b>3</b></th>
+  </tr>
+  <tr>
+    <th><b>Thumbnail</b></th>
+    <th><img src="./images/uni_1_thumbnail.png" height="150" /></th>
+    <th><img src="./images/uni_2_thumbnail.png" height="150" /></th>
+    <th><img src="./images/uni_3_thumbnail.png" height="150" /></th>
   </tr>
   <tr>
     <td><b>Features</b></td>
@@ -343,3 +365,6 @@ This work was partly supported by EIT RawMaterials GmbH within the activities of
 
 ## Contact
 This dataset is provided for academic purposes. For any inquiries please contact <Paweł Trybała: ptrybala@fbk.eu>.
+
+## License
+The data provided here is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
